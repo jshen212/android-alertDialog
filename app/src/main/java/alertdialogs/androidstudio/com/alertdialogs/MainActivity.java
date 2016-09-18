@@ -32,6 +32,9 @@ public class MainActivity extends Activity {
                 // set message
                 dialog.setMessage(getResources().getString(R.string.dialog_message));
 
+                // set icon
+                dialog.setIcon(android.R.drawable.btn_star);
+
                 // set cancelable
                 dialog.setCancelable(false);
 
